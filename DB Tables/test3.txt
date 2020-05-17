@@ -1,0 +1,117 @@
+CREATE TABLE Restaurant 
+(
+r_id int auto_increment PRIMARY KEY,
+name varchar (50) NOT NULL,
+location varchar (50) NOT NULL,
+cuisine varchar (50),
+rating varchar (50) 
+);
+
+
+
+CREATE TABLE Menu 
+(
+r_id int NOT NULL,
+menu_id int auto_increment PRIMARY KEY,
+item varchar (50) NOT NULL,
+price varchar (50) NOT NULL,
+FOREIGN KEY (r_id) REFERENCES Restaurant (r_id)
+);
+
+
+INSERT INTO Restaurant (name, location, cuisine, rating)
+VALUES 
+('Takeout', 'Dhanmondi' ,'Burger' ,'4.8'),
+('Pizza inn', 'Dhanmondi' ,'Pizza' ,'4.4'),
+('Chillox', 'Dhanmondi' ,'Burger' ,'4.6'),
+('Sultans Dine', 'Dhanmondi' ,'Biriyani' ,'5.0'),
+('Madchef', 'Dhanmondi' ,'Burger' ,'4.7'),
+('Cherry Drops', 'Khilgaon' ,'Pizza' ,'3.9'),
+('Tradition bd', 'Khilgaon' ,'Biriyani' ,'4.4'),
+('Cafe Appeliano', 'Khilgaon' ,'Italian' ,'4.3'),
+('Mr. Burger', 'Khilgaon' ,'Burger' ,'4.6'),
+('Cloud Flame', 'Khilgaon' ,'Italian' ,'3.6'),
+('Nandos', 'Gulshan' ,'African' ,'4.6'),
+('Sbarro', 'Gulshan' ,'Pizza' ,'4.3'),
+('kfc', 'Gulshan' ,'Fastfood' ,'4.2'),
+('Gloria Jeans', 'Gulshan' ,'Coffee' ,'4.9'),
+('Barcode Cafe', 'Gulshan' ,'Italian' ,'4.6'),
+('Popeyes Coffee', 'Khilgaon' ,'Coffee' ,'4.0'),
+('Tasty Treat', 'Dhanmondi' ,'Fastfood' ,'3.5'),
+('Fakruddin', 'Gulshan' ,'Biriyani' ,'4.1');
+
+
+
+
+INSERT INTO Menu (r_id, item, price)
+VALUES 
+(1, 'Beef Cheese Delight burger' ,'260'),
+(1, 'Beef & Bacon burger' ,'280'),
+(1, 'Chicken Supreme burger' ,'360'),
+(2, 'bbq Chicken pizza small' ,'390'),
+(2, 'Beef Temptation pizza medium' ,'700'),
+(2, 'Vege Delight pizza large' ,'1300'),
+(3, 'Beef Cheese blast burger' ,'280'),
+(3, 'bbq chicken burger' ,'230'),
+(3, 'Smoky Chicken burger' ,'250'),
+(4, 'kacchi platter' ,'400'),
+(4, 'Chicken Biriyani' ,'250'),
+(4, 'Basmoti Kacchi' ,'330'),
+(5, 'Chicken Steak' ,'300'),
+(5, 'Dhakaiya Burger' ,'280'),
+(5, 'Nutella Shake' ,'120'),
+(6, 'bbq Chicken pizza small' ,'350'),
+(6, 'Four Season pizza medium' ,'500'),
+(6, 'Hot & Spicy Pizza large' ,'800'),
+(7, 'kacchi biriyani' ,'350'),
+(7, 'Chicken biriyani' ,'300'),
+(7, 'Beef Tehari' ,'230'),
+(8, 'Pasta Europa' ,'340'),
+(8, 'Pasta Basta' ,'320'),
+(8, 'Naga Pasta' ,'300'),
+(9, 'Mr. Cowboy burger' ,'270'),
+(9, 'Chicken Supreme burger' ,'290'),
+(9, 'Mr. Naga burger' ,'240'),
+(10, 'Pasta Basta' ,'200'),
+(10, 'Rice bowl' ,'120'),
+(10, 'Classic Burger' ,'190'),
+(11, 'Peri Peri Chicken' ,'400'),
+(11, 'Lunch Platter' ,'670'),
+(11, 'Chicken Wings' ,'250'),
+(12, 'NY Chicken Tikka Slice' ,'300'),
+(12, 'NY Mushroom Pizza slice' ,'330'),
+(12, 'Super Supreme whole pizza' ,'1600'),
+(13, 'Lunch Box' ,'400'),
+(13, 'Crispy Fried Chicken' ,'200'),
+(13, 'Virgin Mojito' ,'170'),
+(14, 'Tiramisu Cappuccino' ,'270'),
+(14, 'Coffee Americano' ,'300'),
+(14, 'Caramel Eclairs' ,'120'),
+(15, 'Mozzarella Cheese Pizza' ,'400'),
+(15, 'Oven baked Pasta' ,'360'),
+(15, 'Pizza Fold' ,'1100'),
+(16, 'Chocolate Cold Coffee' ,'50'),
+(16, 'Hot Coffee' ,'40'),
+(16, 'Strawberry Smoothie' ,'70'),
+(17, 'Black Forest Slice' ,'80'),
+(17, 'Mini Pizza Bun' ,'100'),
+(17, 'Chicken Sausage' ,'60'),
+(18, 'Kacchi Biriyani' ,'230'),
+(18, 'Chicken Biriyani' ,'220'),
+(18, 'Beef Tehari' ,'180');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
