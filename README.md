@@ -22,7 +22,7 @@ IDE: NetBeans
 4. User can check same type of foods in different prices from different restaurants.
 5. Customer can compare different foods within his/her budget. 
 6. User can search food by different locations and cuisines.
-7. People can see various offers of the restaurants.
+7. This application will show various offers of the restaurants.
 7. Customer can add rating and give review to different restaurants.
 8. Overall rating of restaurant will adjust automatically according to customer's indivisual rating.  
 
