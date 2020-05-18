@@ -9,7 +9,9 @@ The main objective of this project is to lessen the hassle of finding food in a 
 ## Requirements
 
 Programming Language: Java
+
 Database: MySQL
+
 IDE: NetBeans 
 
 ## Features
