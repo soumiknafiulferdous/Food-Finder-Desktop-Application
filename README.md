@@ -8,9 +8,9 @@ The main objective of this project is to lessen the hassle of finding food in a 
 
 ## Requirements
 
-1.	Programming Language: Java
-2.	Database: MySQL
-3.	IDE: NetBeans 
+Programming Language: Java
+Database: MySQL
+IDE: NetBeans 
 
 ## Features
 1. User can see menus of different restaurants. 
