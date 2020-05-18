@@ -7,8 +7,8 @@ Food Finder is a website designed to help the users to find the right food from 
 The main objective of this project is to lessen the hassle of finding food in a particular area. Users can easily know the info of restaurants and also know their menu at a fingertip. Customers can also find the food that will fit within their budget. It will save their valuable time as well as they can save their money. 
 
 ## Requirements
-1.	IDE: Notepad++ 
-2.	Languages: HTML, CSS, PHP, JavaScript, Bootstrap 
+1.	IDE: NetBeans 8.1
+2.	Languages: Java
 3.	Database: MySQL
 
 ## Features
@@ -18,6 +18,7 @@ The main objective of this project is to lessen the hassle of finding food in a 
 4. User can check same type of foods in different prices from different restaurants.
 5. Customer can compare different foods within his/her budget. 
 6. User can search by different locations and cuisines.
+7. People can see different offers of many restaurants.
 7. Customer can add rating and give review to different restaurants.
 8. Overall rating of restaurant will adjust automatically according to customer's indivisual rating.  
 
