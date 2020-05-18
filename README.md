@@ -7,9 +7,10 @@ Food Finder is a website designed to help the users to find the right food from 
 The main objective of this project is to lessen the hassle of finding food in a particular area. Users can easily know the info of restaurants and also know their menu at a fingertip. Customers can also find the food that will fit within their budget. It will save their valuable time as well as they can save their money. 
 
 ## Requirements
-1.	IDE: NetBeans 8.1
-2.	Languages: Java
-3.	Database: MySQL
+
+1.	Programming Language: Java
+2.	Database: MySQL
+3.	IDE: NetBeans 
 
 ## Features
 1. User can see menus of different restaurants. 
